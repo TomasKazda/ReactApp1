@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "Hash": "UWmBvvzzu3wg+UhXT+9RBDnTmNtknjMLyyHkPZUgkOg=",
+  "Source": "ReactApp1.Server",
+  "BasePath": "_content/ReactApp1.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\tomas\\source\\repos\\ReactApp1\\reactapp1.client\\reactapp1.client.esproj",
+      "Version": 2,
+      "Source": "reactapp1.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ReactApp1.Server\\wwwroot",
+      "Source": "ReactApp1.Server",
+      "ContentRoot": "C:\\Users\\tomas\\source\\repos\\ReactApp1\\ReactApp1.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp1.Server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\tomas\\source\\repos\\ReactApp1\\ReactApp1.Server\\wwwroot\\test.html",
+      "SourceId": "ReactApp1.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tomas\\source\\repos\\ReactApp1\\ReactApp1.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp1.Server",
+      "RelativePath": "test#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7gtn7qw7lt",
+      "Integrity": "18OX/kLJTM4F3gSI7JTdl1+FKYHNNQs8sEm8fxaT/yg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\test.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "test.7gtn7qw7lt.html",
+      "AssetFile": "C:\\Users\\tomas\\source\\repos\\ReactApp1\\ReactApp1.Server\\wwwroot\\test.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"18OX/kLJTM4F3gSI7JTdl1+FKYHNNQs8sEm8fxaT/yg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 11:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7gtn7qw7lt"
+        },
+        {
+          "Name": "label",
+          "Value": "test.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-18OX/kLJTM4F3gSI7JTdl1+FKYHNNQs8sEm8fxaT/yg="
+        }
+      ]
+    },
+    {
+      "Route": "test.html",
+      "AssetFile": "C:\\Users\\tomas\\source\\repos\\ReactApp1\\ReactApp1.Server\\wwwroot\\test.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"18OX/kLJTM4F3gSI7JTdl1+FKYHNNQs8sEm8fxaT/yg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 11:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-18OX/kLJTM4F3gSI7JTdl1+FKYHNNQs8sEm8fxaT/yg="
+        }
+      ]
+    }
+  ]
+}
