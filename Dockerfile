@@ -1,5 +1,6 @@
 # Build Docker image: docker build -t imageName:versionTag .
-# Container run: docker run -p 8080:80 -p 8443:443 imageName:versionTag
+# Container run: docker run -p 8080:8080 imageName:versionTag
+# Container run: docker run -P imageName:versionTag
 
 # Build stage pro frontend
 FROM node:18-alpine AS frontend-build
@@ -7,9 +8,6 @@ WORKDIR /src/reactapp1.client
 COPY ./reactapp1.client/package*.json ./
 RUN npm install
 COPY ./reactapp1.client ./
-COPY ./reactapp1.client/index.html ./
-RUN ls -la
-RUN ls -la ./src
 RUN npm run build
 
 # Build stage pro backend
@@ -34,7 +32,7 @@ RUN dotnet publish "ReactApp1.Server/ReactApp1.Server.csproj" -c Release -o /app
 # Final stage
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
-#EXPOSE 80
+EXPOSE 8080
 #EXPOSE 443
 
 # Instalace certifikátů pro HTTPS
