@@ -1,0 +1,35 @@
+# .NET specifické
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+
+# React/Vite/TypeScript specifické
+node_modules/
+dist/
+.vite/
+*.log
+.env.local
+.env.*.local
+*.tsbuildinfo
+
+# IDE specifické
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Systémové soubory
+.DS_Store
+Thumbs.db
